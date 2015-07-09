@@ -4,7 +4,7 @@ It does what you think it does.
 
 The file `chargen.c` generates chars, `strings-chargen.c` just uses pre generated strings and spews them out (way faster). Check it:
 
-    echo "ten seconds of output"
+    % echo "ten seconds of output"
     ten seconds of output
     
     % ./chargen | pv > /dev/null
